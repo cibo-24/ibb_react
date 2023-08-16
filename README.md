@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+-----------------------------------------------------------------------------
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -76,3 +78,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Author : Kenan Cibooğlu
 linkedln : ( https://www.linkedin.com/in/cibokenan24/ )
 
+<<<<<<< HEAD
+=======
+## Author : Kenan Cibooğlu
+- linkedln : ( https://www.linkedin.com/in/cibokenan24/ )
+>>>>>>> 4e8f59bd605e7a7d63377473899d9a044ecc8507
