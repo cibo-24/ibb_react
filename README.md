@@ -12,3 +12,4 @@ In the project directory, you can run:
 - React    ( Frontend)
 
 ## Author : Kenan Cibooğlu
+- linkedln : ( https://www.linkedin.com/in/cibokenan24/ )
