@@ -1,0 +1,17 @@
+
+
+Axios, JavaScript tabanlı uygulamalarda HTTP istekleri yapmak için kullanılan popüler bir kütüphanedir. Genellikle tarayıcı tabanlı uygulamalarda ve Node.js tabanlı sunucu uygulamalarında veri alışverişi için kullanılır. Axios, basit ve okunabilir bir API'ye sahiptir ve Promise tabanlı bir yapıya sahip olduğu için asenkron işlemleri kolayca yönetebilir.
+
+Axios, tarayıcı ve Node.js'de aynı şekilde kullanılabilir ve aşağıdaki özellikleri sağlar:
+
+HTTP İstekleri: Axios, GET, POST, PUT, DELETE gibi farklı HTTP yöntemleri ile istekler yapmanıza olanak tanır.
+
+Promise Desteği: Axios isteklerini Promise yapısıyla yönetir. Bu, isteklerin asenkron bir şekilde yapıldığı ve sonuçların kolayca işlendiği anlamına gelir.
+
+Veri Dönüşümü: Axios, otomatik olarak JSON gibi veri formatlarını işleyebilir ve isteğe bağlı olarak veri dönüşümünü yapılandırabilir.
+
+İnterseptörler: İstekler ve cevaplar üzerinde işlem yapmanızı sağlayan interseptörler eklemek mümkündür. Bu, istekleri veya cevapları işlerken oturum açma, token yönetimi gibi işlemleri gerçekleştirmenize yardımcı olabilir.
+
+Hata Yönetimi: Axios, isteklerin ve cevapların hatalarını kolayca yönetmenizi sağlar. Hataların türüne ve durumuna göre işlemler yapabilirsiniz.
+
+Axios'un kullanımı oldukça yaygındır ve çeşitli projelerde tercih edilen bir HTTP istemci kütüphanesidir. Axios, veri alışverişi yaparken kodun daha organize ve anlaşılabilir olmasını sağlar.

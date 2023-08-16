@@ -1,0 +1,15 @@
+ECMAScript (genellikle kısaltılmış haliyle ES), JavaScript'in standartlaştırılmış bir versiyonudur. JavaScript'in temel yapısını ve özelliklerini tanımlayan resmi belgedir. ECMAScript, tarayıcılar ve JavaScript motorları tarafından uyulması gereken kuralları ve özellikleri tanımlar.
+
+ECMAScript, JavaScript dilinin evrimini yönlendiren ve yeni özelliklerin eklenmesini sağlayan bir standartlaştırma sürecine dayanmaktadır. Yeni ECMAScript sürümleri, dilin geliştirilmesi ve iyileştirilmesi amacıyla düzenli olarak yayımlanır. Her sürümde, dilin özellikleri, syntax'ı ve API'ları genişletilir veya güncellenir.
+
+Birkaç önemli ECMAScript sürümü:
+
+ECMAScript 3 (ES3): Bu sürüm, JavaScript'in temelini oluşturan eski standarttır. Özellikle 2000'lerin ortalarına kadar yaygın olarak kullanıldı.
+
+ECMAScript 5 (ES5): ES5, 2009 yılında yayımlanan ve modern JavaScript'in temelini oluşturan bir sürümdür. Bu sürümde önemli özellikler ve geliştirmeler yer aldı.
+
+ECMAScript 6 (ES6) veya ECMAScript 2015: 2015 yılında yayımlanan bu sürüm, JavaScript dilinde büyük değişikliklere ve yeni özelliklere yol açtı. Arrow fonksiyonlar, class tanımlamaları, template literals, destructuring gibi önemli özellikler bu sürümde tanıtıldı.
+
+Sonraki ECMAScript Sürümleri: ES6'dan sonra, her yıl yeni bir ECMAScript sürümü yayımlanmaya başlandı. Bu sürümler, dilin geliştirilmesini ve daha modern özelliklerin eklenmesini sağlar. Örnek olarak, ES7 (ECMAScript 2016), ES8 (ECMAScript 2017) ve sonraki sürümler bulunmaktadır.
+
+Her yeni ECMAScript sürümü, JavaScript geliştiricilerine daha güçlü ve verimli bir dil sunmayı amaçlar. Ancak, tüm tarayıcılar yeni özellikleri hemen desteklemeyebilir, bu nedenle projelerde tarayıcı uyumluluğunu göz önünde bulundurmak önemlidir.

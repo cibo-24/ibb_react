@@ -1,0 +1,37 @@
+JavaScript sınıflarında, super anahtar kelimesi, alt sınıfın üst sınıfın özelliklerine ve yöntemlerine erişmesini sağlayan bir yapıdır. super anahtar kelimesi, alt sınıfın içinde kullanıldığında, alt sınıfın üst sınıfı genişlettiği ve kalıtım aldığı anlamına gelir.
+
+super anahtar kelimesi aşağıdaki iki ana bağlamda kullanılır:
+
+Üst Sınıfın Yöntemini Çağırmak: Alt sınıfın bir yöntemi, aynı isimli bir yöntemi üst sınıftan çağırırken super anahtar kelimesini kullanabilir. Bu, yöntemlerin üst sınıfın davranışını genişleterek veya değiştirerek kullanılmasını sağlar.
+
+Üst Sınıfın Constructor'ını Kullanmak: Alt sınıfın constructor yöntemi, üst sınıfın constructor yöntemini çağırarak üst sınıfın başlangıç durumunu da dahil edebilir. Bu, alt sınıfın inşa edilmesi ve özelliklerinin başlatılması aşamasında kullanılır.
+
+Örnek olarak, bir Person sınıfını ve bu sınıftan türetilmiş bir Employee alt sınıfını düşünelim:
+
+
+
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+
+  greet() {
+    console.log(`Hello, my name is ${this.name}.`);
+  }
+}
+
+class Employee extends Person {
+  constructor(name, jobTitle) {
+    super(name); // Üst sınıfın constructor'ını çağırıyoruz.
+    this.jobTitle = jobTitle;
+  }
+
+  introduce() {
+    super.greet(); // Üst sınıfın yöntemini çağırıyoruz.
+    console.log(`I work as a ${this.jobTitle}.`);
+  }
+}
+
+const employee1 = new Employee("Alice", "Software Engineer");
+employee1.introduce();
+Bu örnekte, super anahtar kelimesi hem Employee sınıfının constructor'ında (super(name)) hem de introduce yönteminde (super.greet()) kullanılmıştır. Bu, alt sınıfın üst sınıfın davranışını genişletmesine ve üst sınıfın özelliklerine erişmesine olanak tanır.

@@ -1,0 +1,25 @@
+componentDidMount, React bileşenlerinin yaşam döngüsünde yer alan bir yöntemdir. Bu yöntem, bir bileşenin oluşturulduktan sonra (render edildikten ve DOM'a monte edildikten sonra) çalıştırılır. Genellikle, bileşenin başlangıç durumu ayarlaması, veri almak veya dış kaynaklardan bilgi çekmek gibi işlemler bu yöntem içinde gerçekleştirilir.
+
+componentDidMount yöntemi şu şekilde kullanılır:
+
+
+class MyComponent extends React.Component {
+  componentDidMount() {
+    // Bileşen DOM'a monte edildiğinde yapılacak işlemler burada gerçekleştirilir.
+    console.log("Component mounted!");
+  }
+
+  render() {
+    return <div>My Component</div>;
+  }
+}
+
+Bu örnekte, componentDidMount yöntemi, bileşen DOM'a monte edildiğinde çalıştırılarak "Component mounted!" mesajını konsola yazdıracaktır.
+
+componentDidMount yöntemi genellikle aşağıdaki tür işlemler için kullanılır:
+
+API istekleri yapmak veya dış kaynaklardan veri çekmek
+Bileşen durumunu veya bağlamını ayarlamak
+Dışarıya veya diğer bileşenlere event listener'lar eklemek
+Animasyonlar veya DOM manipülasyonları yapmak
+Ancak, React 16.3 sürümünden itibaren, componentDidMount yöntemi yerine componentDidMount ile aynı işlevi gören componentDidMount yerine componentDidMount önerilir. Bu yöntem, bileşenin ilk render işleminden sonra çalışır ve bileşenin içindeki erişilebilir bir referans elde etmeyi daha kolaylaştırır.

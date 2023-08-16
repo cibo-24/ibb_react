@@ -1,0 +1,17 @@
+Webpack, modern web uygulamalarının geliştirilmesi için kullanılan bir açık kaynaklı paketleme (bundling) aracıdır. Webpack, farklı türde dosyaları (örneğin JavaScript, CSS, resimler) alır, bu dosyalar arasındaki bağımlılıkları analiz eder ve sonunda bunları optimize edilmiş ve tek bir veya birkaç dosya halinde paketler.
+
+Webpack'in temel görevleri şunlardır:
+
+Modüllerin Yönetimi: Webpack, modüler programlamayı destekler. Projenizin kodunu farklı modüller ve dosyalara bölebilir ve bu modüller arasındaki bağımlılıkları çözebilir.
+
+Paketleme (Bundling): Web uygulamaları, genellikle birçok farklı dosya ve modülden oluşur. Webpack, bu farklı dosyaları birleştirerek optimize edilmiş paketler oluşturur.
+
+Loaders ve Plugins: Webpack, çeşitli loaders (yükleyiciler) ve plugins (eklentiler) kullanarak, farklı dosya türlerini (örneğin CSS, resimler) işleyebilir ve dönüştürebilir.
+
+Asset Optimizasyonu: Webpack, resimleri sıkıştırabilir, kodu minify edebilir ve gereksiz kod parçalarını kaldırabilir, böylece uygulamanın yükleme hızını artırabilir.
+
+Code Splitting: Webpack, uygulamayı farklı parçalara bölebilir ve bu parçaların sadece gerektiğinde yüklenmesini sağlayarak, performansı artırabilir.
+
+Hot Module Replacement (HMR): Geliştirme sırasında anlık güncellemeler yaparak, uygulama yeniden yüklenmeden değişiklikleri görüntülemeyi sağlayan bir özelliktir.
+
+Webpack, modern JavaScript çerçeveleri ve kütüphaneleri (örneğin React, Vue.js, Angular) ile yaygın olarak kullanılmaktadır. Projenizin kaynak kodlarını optimize edilmiş ve üretim için hazır hâle getirmek için Webpack kullanabilirsiniz.

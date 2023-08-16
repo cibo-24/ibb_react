@@ -1,0 +1,17 @@
+
+
+React Context, React uygulamalarında bileşenler arasında veri paylaşımını kolaylaştırmak için kullanılan bir özelliktir. React uygulamalarında veri, normalde bileşenler arasında props yoluyla iletilir. Ancak, bileşenler ağaç yapısının derin seviyelerine ulaştıkça props aktarımı karmaşık hale gelebilir. Bu tür durumlarda, React Context kullanarak bileşenler arasında veri iletimini daha etkili ve kolay bir şekilde sağlayabilirsiniz.
+
+React Context, bir tür global durum deposu olarak düşünülebilir. Bir bileşen, bir 'Context Provider' oluşturarak bir veya daha fazla değeri belirler. Ardından, bu değerlere 'Context Consumer' bileşenleri aracılığıyla erişilebilir. Context Consumer, ağaç yapısının neresinde olursa olsun, değerleri almanızı sağlar.
+
+React Context'in temel bileşenleri:
+
+1. **Context**: Verileri depolamak ve paylaşmak için bir Context nesnesi oluşturulur.
+
+2. **Context Provider**: Context içindeki verileri belirler ve bu verilere erişimi sağlar. Ağaç yapısının belirli bir noktasına yerleştirilir ve alt bileşenlerine veriyi iletebilir.
+
+3. **Context Consumer**: Context içinde belirtilen verilere erişmek için kullanılır. Context Consumer bileşenleri, içinde bulundukları ağaç yapısının hangi derinliğinde olurlarsa olsun, verilere erişebilir.
+
+React Context kullanmak, özellikle durumun birden fazla bileşen tarafından paylaşılması gerektiği durumlarda ve bileşen ağacının derin seviyelerine ulaşıldığında oldukça yararlıdır. Ancak, gereksiz veya aşırı kullanım, bileşenler arasındaki ilişkileri karmaşıklaştırabilir, bu nedenle dikkatli bir şekilde kullanılmalıdır.
+
+Örnek kullanım senaryoları, kullanıcı oturum durumu, tema ayarları veya dil seçenekleri gibi uygulama genelinde paylaşılması gereken verileri içerebilir.

@@ -1,0 +1,17 @@
+Internationalization (kısaltılmış haliyle "i18n"), yazılım uygulamalarının farklı kültürel, dil ve bölgesel gereksinimleri karşılayabilecek şekilde tasarlanması ve geliştirilmesi anlamına gelir. Bu süreç, bir uygulamanın içeriğini ve kullanıcı arayüzünü farklı dillerde sunabilmesini, yerelleştirilmiş tarih, saat ve para birimi formatlarını destekleyebilmesini, kültürel duyarlılık ve gereksinimleri karşılayabilmesini sağlamayı hedefler.
+
+Internationalization genellikle "i18n" olarak kısaltılır, çünkü "i" harfi başlangıç kelimesi "internationalization"ın (uluslararasılaştırma) ilk harfi, "18" ise kelimenin ortasında bulunan karakter sayısını temsil eder.
+
+Internationalization işleminde aşağıdaki konular önemlidir:
+
+Çeviri: Uygulama metinleri, düğme etiketleri, hata mesajları ve diğer kullanıcı arayüzü bileşenleri farklı dillere çevrilmelidir.
+
+Yerelleştirme (Localization): Dil dışında, tarih, saat, para birimi gibi veri formatları da yerelleştirilmelidir. Örneğin, Amerika'da kullanılan tarih formatı ile Fransa'da kullanılan tarih formatı farklıdır.
+
+Kültürel Duyarlılık: Farklı kültürlerin alışkanlıklarına, geleneklerine ve gereksinimlerine uygun olarak kullanıcı arayüzü ve içerik tasarlanmalıdır.
+
+Metin Genişlemesi ve Kısaltması: Farklı dillerde metinlerin uzunlukları farklı olabilir. Bu nedenle kullanıcı arayüzü tasarımında metin genişlemesi ve kısaltması göz önünde bulundurulmalıdır.
+
+Kod ve Altyapı Desteği: Uygulamanın alt yapısı, yerelleştirilmiş veri formatlarına, metin çeviri yönetimine ve yerel gereksinimlere uygun şekilde tasarlanmalıdır.
+
+Internationalization, küresel kullanıcı tabanlarını hedefleyen uygulamalar için kritik bir öneme sahiptir. Bu sayede kullanıcıların kendi dillerinde ve kültürel alışkanlıklarına uygun bir deneyim yaşaması sağlanır.

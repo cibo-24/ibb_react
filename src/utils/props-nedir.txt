@@ -1,0 +1,18 @@
+React'ta "props" (kısaltılmış haliyle "properties"), bir bileşene veri iletmek için kullanılan bir terimdir. Bir bileşenin dışa doğru veri iletişimi sağlamasını sağlayan bir mekanizmadır. "Props"lar, React bileşenlerine bir fonksiyonun parametresi gibi verileri geçmek için kullanılır.
+
+Bir bileşen, bir üst seviye bileşen tarafından kullanıldığında, üst seviye bileşen "props"lar aracılığıyla alt seviye bileşene veri aktarabilir. Bu şekilde bileşenler arasında veri paylaşımı ve iletişimi sağlanır.
+
+Örnek olarak, bir "User" bileşeni düşünelim:
+
+
+function User(props) {
+  return <div>Hello, {props.name}!</div>;
+}
+
+Bu bileşen "name" adında bir "prop" bekler. Üst seviye bir bileşen (örneğin, bir ana bileşen) bu "User" bileşenini aşağıdaki gibi kullanabilir:
+
+<User name="John" />
+
+Bu kullanım, "name" prop'unun "User" bileşenine geçirildiği anlamına gelir. "User" bileşeni, "props" aracılığıyla bu ismi alır ve ekranda "Hello, John!" şeklinde bir çıktı üretir.
+
+Props'lar, bileşenlerin yeniden kullanılabilirliğini artıran ve dinamik içerik oluşturmaya yardımcı olan önemli bir React konseptidir.

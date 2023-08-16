@@ -1,0 +1,30 @@
+Object destructuring (nesne yıkımı), JavaScript'te bir nesnenin özelliklerini ayrıştırarak ve isimlendirerek değişkenlere atama işlemini kolaylaştıran bir yapıdır. Bu yöntem, nesne içindeki özelliklere daha kolay erişim sağlar ve kodun daha okunabilir ve temiz olmasını sağlar.
+
+Object destructuring kullanımı aşağıdaki gibi görünür:
+
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 30
+};
+
+// Object destructuring ile özelliklere erişim
+const { firstName, lastName, age } = person;
+
+console.log(firstName); // "John"
+console.log(lastName);  // "Doe"
+console.log(age);       // 30
+Bu örnekte, person adlı bir nesne oluşturulmuş ve sonra firstName, lastName ve age özellikleri object destructuring kullanılarak ayrıştırılmış ve değişkenlere atanmıştır.
+
+Ayrıca, object destructuring sırasında farklı isimlerle değişkenler oluşturabilirsiniz:
+
+
+const { firstName: fName, lastName: lName, age: personAge } = person;
+
+console.log(fName);       // "John"
+console.log(lName);       // "Doe"
+console.log(personAge);   // 30
+Bu şekilde, nesne özelliklerini farklı isimlerle değişkenlere atayabilirsiniz.
+
+Object destructuring, API isteklerinden gelen verileri veya fonksiyonlardan dönen nesneleri daha kolay işlemek için kullanışlı bir araçtır ve modern JavaScript kodlamada yaygın olarak kullanılır.

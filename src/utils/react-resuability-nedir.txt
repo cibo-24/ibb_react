@@ -1,0 +1,15 @@
+"React reusability" terimi, React bileşenlerinin tekrar kullanılabilirlik yeteneğini ifade eder. React'in temel felsefelerinden biri, bileşen tabanlı bir yapı sunarak bileşenleri izole edilmiş ve tekrar kullanılabilir parçalar olarak düşünmeyi teşvik etmektir. Bu sayede, aynı bileşeni farklı yerlerde veya farklı projelerde kullanabilirsiniz, bu da kodunuzu daha temiz, daha düzenli ve daha ölçeklenebilir hale getirir.
+
+React bileşenlerinin tekrar kullanılabilirliği aşağıdaki yollarla sağlanır:
+
+Bileşenlerin Ayrılmış Olması: Bileşenler, spesifik bir görevi yerine getiren ve izole edilmiş parçalar olarak tasarlanmalıdır. Böylece, farklı projelerde veya sayfalar arasında aynı bileşeni tekrar kullanabilirsiniz.
+
+Props Kullanımı: Bileşenlere özellikler (props) aktararak, aynı bileşeni farklı verilerle kullanabilirsiniz. Bu, bileşenleri daha genel amaçlı ve tekrar kullanılabilir hale getirir.
+
+Bileşen Kütüphaneleri: Özellikle React topluluğunda, tekrar kullanılabilir bileşenleri içeren kütüphaneler bulunmaktadır. Bu kütüphaneleri kullanarak, popüler ve genel amaçlı bileşenleri projenize ekleyebilirsiniz.
+
+HOC (Higher Order Component) ve Hooks: HOC'lar ve Hooks, bileşenlerin davranışlarını ve özelliklerini paylaşmalarını ve tekrar kullanılmalarını sağlamak için kullanılan React özellikleridir.
+
+Bileşen Tasarımı: Bileşenlerin tasarımı, sadece görünüm değil aynı zamanda işlevselliği içermelidir. Bu, bileşenlerin belirli bir görevi yerine getirmek için kullanılabileceği anlamına gelir.
+
+React reusability, kodunuzu daha az tekrarlamayı, daha az hata yapmayı ve daha hızlı geliştirme süreçleri sağlamayı amaçlar. Uygun şekilde tasarlanmış ve yapılandırılmış bileşenler, geliştirme sürecini daha etkili hale getirebilir.

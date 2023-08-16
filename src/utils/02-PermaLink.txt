@@ -1,0 +1,32 @@
+Github URL:
+https://github.com/cibo-24/ibb_react
+
+
+Backend Url:
+http://localhost:4444/
+http://localhost:4444/swagger-ui/index.html
+http://localhost:444/h2-console
+
+
+Frontend Url:
+htttp://localhost:3000/
+
+JSX To HTML: http://transform.tools/html-to-jsx
+
+------------------------------------
+
+# NPM #
+npm install axios --save      >> axios : backend ile frontend arasında ki haberleşmeyi sağlar.
+npm i react-router-dom --save >> router kurulumu yapar. Router: Bir URL'in çalışması için router gerekir.
+
+package.json
+"axios": "^1.4.0",
+    "i18next": "^21.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^11.18.6",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+
+

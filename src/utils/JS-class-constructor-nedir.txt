@@ -1,0 +1,20 @@
+JavaScript'te sınıf tabanlı programlama kullanırken, sınıfların özelliklerini ve davranışlarını belirlemek için "constructor" adlı bir özel bir yöntem kullanılır. Bir sınıf örneği (nesne) oluşturulduğunda, "constructor" yöntemi otomatik olarak çağrılır ve nesnenin başlangıç durumu ayarlanır.
+
+constructor yöntemi, bir sınıfın yapılandırıcısı olarak düşünülebilir. Bu yöntem, sınıfın özelliklerini (alanlarını) başlatmak ve nesnenin başlangıç durumunu belirlemek için kullanılır. constructor yöntemi bir sınıfın içinde yalnızca bir kez bulunabilir ve sınıfın adıyla aynı isimde olmalıdır.
+
+Örnek olarak, bir Person sınıfını düşünelim:
+
+
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+}
+
+const person1 = new Person("Alice", 30);
+console.log(person1.name); // "Alice"
+console.log(person1.age);  // 30
+Bu örnekte, Person sınıfının constructor yöntemi, name ve age adında iki parametre alır ve bu parametreleri kullanarak person1 adlı bir nesne örneği oluşturulur. this anahtar kelimesi, sınıfın içindeki özelliklere erişmek için kullanılır.
+
+constructor yöntemi, sınıfın özelliklerini ayarlamak için kullanıldığından, nesne örnekleri oluşturulurken bu yönteme gerekli parametreleri geçmeniz gerekir.

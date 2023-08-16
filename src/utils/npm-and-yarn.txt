@@ -1,0 +1,19 @@
+npm (Node Package Manager) ve Yarn, JavaScript ve Node.js projeleri için paket yöneticileridir. Her ikisi de üçüncü taraf kütüphaneleri ve bağımlılıkları projelerinizde yönetmenize yardımcı olur. İşlevsel olarak benzer olsalar da, bazı farklılıkları vardır.
+
+İşte npm ve Yarn arasındaki bazı temel farklar:
+
+Performans: Yarn, paketlerin indirilme ve kurulma hızını artırmak için tasarlanmıştır. Paralel indirme ve daha iyi önbellek yönetimi sayesinde genellikle daha hızlıdır.
+
+Önbellek Yönetimi: Yarn, indirilen paketleri daha etkili bir şekilde önbellekte saklar. Bu, aynı paketleri birden fazla kez indirmemenizi sağlar.
+
+Lock Dosyası: Hem npm hem de Yarn, proje bağımlılıklarının sabit bir sürümünü belirtmek için "lock dosyaları" kullanır. Ancak npm, package-lock.json adında bir dosya oluştururken, Yarn, yarn.lock adında bir dosya oluşturur.
+
+Depolama Formatı: npm, bağımlılıkları node_modules klasörüne yükler ve sıkıştırılmış .tgz dosyalarını kullanır. Yarn, önceden indirilen ve önbellekte saklanan paketlerin bağımlılıklarını ~/.yarn-cache klasöründe saklar.
+
+Komut Satırı Arayüzü: Yarn, daha net ve basit bir komut satırı arayüzüne sahiptir. Paket yükleme ve güncelleme işlemlerini daha okunabilir bir şekilde sunar.
+
+Versiyonlama: npm ve Yarn, paketlerin versiyonlarını ve sürüm yönetimini destekler. Her iki araç da aynı semantik sürüm (semantic versioning) kurallarını izler.
+
+Topluluk ve Destek: Hem npm hem de Yarn, büyük ve aktif topluluklara sahiptir. Kullanım ve destek açısından benzerdirler.
+
+Genel olarak, npm ve Yarn arasındaki seçim genellikle tercihe dayanır. Projeleriniz için hangi paket yöneticisini kullanacağınıza karar verirken performans, hız, arayüz ve projenizin ihtiyaçları gibi faktörleri göz önünde bulundurmanız önerilir.

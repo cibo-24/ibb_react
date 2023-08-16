@@ -1,0 +1,20 @@
+Redux, React ve diğer JavaScript uygulamalarında durumu (state) yönetmek için kullanılan bir durum yönetim kütüphanesidir. Redux, uygulamanın durumunu merkezi bir depoda (store) saklar ve bu durumu güncellemek ve okumak için bir dizi kural ve yöntem sağlar. Bu, büyük ve karmaşık uygulamalarda bile bileşenler arasındaki veri akışını daha yönetilebilir ve öngörülebilir hale getirmeyi amaçlar.
+
+Redux'un temel kavramları:
+
+Store (Depo): Uygulamanın durumunu içeren merkezi depodur. Bileşenler, bu depoyu okuyabilir ve değiştirebilir. Ancak, durumu değiştirmek için özel eylemler (actions) kullanılır.
+
+Action (Eylem): Redux'ta bir eylem, uygulamanın durumunu değiştirmek için gerçekleştirilen bir eylemi temsil eder. Eylemler, tipik olarak bir tür ve bir veri nesnesi içerir. Örneğin, "kullanıcı oturumu açıldı" veya "ürün sepetine eklendi" gibi eylemler olabilir.
+
+Reducer (Azaltıcı): Azaltıcılar, eylemlere dayalı olarak mevcut durumu nasıl değiştireceğini belirleyen fonksiyonlardır. Her azaltıcı, belirli bir durum parçasını yönetir. Azaltıcılar, mevcut durumu ve bir eylemi alıp yeni bir durumu döndürür.
+
+Dispatch: Bileşenler, eylemleri tetiklemek için store üzerinden dispatch fonksiyonunu kullanır. Bir eylem tetiklendiğinde, azaltıcılar tarafından işlenir ve durum güncellenir.
+
+Subscribe: Store'daki durum değiştiğinde bildirim almak isteyen bileşenler, subscribe fonksiyonunu kullanarak store'a abone olabilirler. Böylece, durum değiştiğinde bileşenler otomatik olarak güncellenir.
+
+Redux, React ile sıkça kullanılır, ancak React dışındaki diğer JavaScript uygulamalarında da kullanılabilecek bağımsız bir kütüphanedir. Redux'un amacı, uygulamaların büyüdükçe karmaşık hale gelmesini engellemek ve durum yönetimini daha öngörülebilir ve yönetilebilir hale getirmektir.
+
+
+
+
+

@@ -1,0 +1,21 @@
+TypeScript, JavaScript programlama dilinin geliştirilmiş bir versiyonudur. JavaScript'e güçlü ve statik bir tip sistemini ekleyerek, kodun daha güvenli, okunabilir ve ölçeklenebilir olmasını sağlar. Microsoft tarafından geliştirilmiştir ve açık kaynaklıdır.
+
+TypeScript'in temel özellikleri şunlardır:
+
+Statik Tip Sistemi: TypeScript, değişkenlerin, fonksiyonların ve nesnelerin veri türlerini belirtmenizi sağlar. Bu, hataları daha erken yakalamanızı ve daha güvenli kod yazmanızı sağlar.
+
+İlerletilmiş Nesne Yapısı: TypeScript, sınıf ve nesne tabanlı programlamada gelişmiş bir yapı sunar. Bunun yanı sıra arayüzler ve sınıf implementasyonları gibi kavramları destekler.
+
+ES6+ Desteği: TypeScript, ECMAScript 6 (ES6) ve sonraki sürümlerdeki özellikleri destekler. Bu, modern JavaScript özelliklerini kullanmanıza olanak tanır.
+
+İlerletilmiş Dizi ve Fonksiyon Operatörleri: TypeScript, diziler ve fonksiyonlar üzerinde işlemler yaparken daha güçlü ve esnek operatörleri destekler.
+
+Nullable ve Undefined Tipleri: TypeScript, nullable (null veya undefined) tipleri destekler ve böylece daha hassas veri analizi yapabilirsiniz.
+
+Tür Inferansı: TypeScript, değişkenlere atanan değerlerden türleri otomatik olarak çıkarabilir. Bu, kodun daha okunabilir olmasını sağlar.
+
+Generics: TypeScript, fonksiyonlar ve sınıflar için genel türler (generics) kullanmanıza olanak tanır. Bu, veri türünü daha dinamik ve genişletilebilir hale getirir.
+
+Dekoratörler: TypeScript, sınıfları ve sınıf üyelerini dekore edebilme yeteneği sunar. Bu, sınıfları özelleştirmek ve genişletmek için kullanışlıdır.
+
+TypeScript, büyük ve karmaşık projelerde özellikle tercih edilen bir araçtır. Kodun daha güvenli ve daha düzenli olmasını sağlayarak yazılım geliştirme sürecini daha etkili hale getirebilir.

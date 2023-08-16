@@ -1,0 +1,15 @@
+react-router, React uygulamalarında tek sayfa uygulamalar (Single Page Application, SPA) için yönlendirme işlemlerini kolaylaştırmak ve yönetmek için kullanılan popüler bir kütüphanedir. Bu kütüphane, farklı bileşenlerin farklı URL'ler altında görüntülenmesini sağlar ve kullanıcı deneyimini daha zengin hale getirir.
+
+React Router, tarayıcı geçişlerini takip ederken sayfa yenilemelerini önler ve aynı sayfa içinde farklı içeriklerin görüntülenmesini sağlar. Böylece kullanıcılar, farklı URL'lere tıkladıklarında sayfanın yeniden yüklenmesi olmadan içerik değişikliklerini görebilirler.
+
+React Router'ın temel bileşenleri:
+
+BrowserRouter ve HashRouter: React Router'ı kullanmaya başlamak için, uygulamanızın en dış bileşeni olan <BrowserRouter> veya <HashRouter> bileşenlerini kullanmanız gerekir. Bu bileşenler, tarayıcı URL'sini güncellemek ve yönlendirmeleri işlemek için gerekli altyapıyı sağlar.
+
+Route: Route bileşeni, belirli bir URL yolunu ve eşleştiğinde görüntülenmesi gereken bileşeni belirtir. path prop'u ile hangi URL yoluyla eşleşeceğini belirtirsiniz.
+
+Link ve NavLink: Link bileşeni, uygulamadaki farklı sayfalara yönlendiren düğmeler veya bağlantılar oluşturmanızı sağlar. NavLink ise gezinme bağlantılarını ve aktif durumları işaretlemek için kullanılır.
+
+Switch: Switch bileşeni, içindeki <Route> bileşenlerini sarmalar ve yalnızca ilk eşleşen yolu renderler. Bu, birden fazla <Route> içeren bileşenlerde beklenmedik davranışları engellemeye yardımcı olur.
+
+React Router, çok sayfalı uygulama yapısını tek sayfalı uygulama olarak sunmanıza yardımcı olur. Bu, daha hızlı gezinme deneyimi ve daha iyi kullanıcı etkileşimi sağlar.
