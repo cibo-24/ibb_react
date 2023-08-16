@@ -74,12 +74,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+###
 
 Author : Kenan Cibooğlu
 linkedln : ( https://www.linkedin.com/in/cibokenan24/ )
 
-<<<<<<< HEAD
-=======
-## Author : Kenan Cibooğlu
-- linkedln : ( https://www.linkedin.com/in/cibokenan24/ )
->>>>>>> 4e8f59bd605e7a7d63377473899d9a044ecc8507
+
+
+
